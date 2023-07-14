@@ -2,9 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
-  *main - A progragram that changes N value
-  *return: 0 (succuss)
-  *betty style doc for function main goes there
+  *main - 'Print the last digite of the number stored in the variable'
+  *Return: Always 0 (success)
   */
 int main(void)
 {
@@ -12,17 +11,18 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 5)
+
+	if ((n % 10)  > 5)
 	{
-		printf("%d is greater than 5\n", n);
+		printf("last digit of %d is %d and is greater than 5\n", n, n % 10);
 	}
-	else if (n == 0)
+	else if ((n % 10) == 0)
 	{
-		printf("%d is 0\n", n);
+		printf("last digit of %d is %d and is0\n", n, n % 10);
 	}
 	else
 	{
-		printf("%d is less than 6 and not 0\n", n);
+		printf("last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
 	}
 	return (0);
 }
