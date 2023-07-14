@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - n changing
- *return: 0 (succuss)
- *betty style doc for function main goes there
- */
+*main - Entry point
+*Description:"n value changes"
+*return: 0 (success)
+*/
 int main(void)
 {
 	int n;
@@ -24,5 +24,5 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	return (0);
+return (0);
 }

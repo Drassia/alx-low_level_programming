@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
-  *main - n changing
+  *main - A progragram that changes N value
   *return: 0 (succuss)
   *betty style doc for function main goes there
   */
