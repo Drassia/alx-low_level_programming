@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
 *main - Entry point
-*Description:"n value changes"
+*Description:'n value changes'
 *return: 0 (success)
 */
 int main(void)
