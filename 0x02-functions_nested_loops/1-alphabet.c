@@ -11,7 +11,7 @@ void print_alphabet(void)
 	for (al = 97; al <= 122; al++)
 	{
 		putchar(al);
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
