@@ -1,21 +1,19 @@
 #include "main.h"
-
 /**
-  *main: Print _putchar using _putchar
-  *
-  *return: Always 0 (success)
-  */
-
+ * main - Entry point
+ * Description: 'print _putchar in to stdout'
+ * return: Always 0 (success)
+ */
 int main(void)
 {
-	_putchar("_");
-	_putchar("p");
-	_putchar("u");
-	_putchar("t");
-	_putchar("c");
-	_putchar("h");
-	_putchar("a");
-	_putchar("r");
-	_putchar("\n");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
